@@ -36,6 +36,14 @@ Take it to the tf_file folder.
 
 In cammand line use this : 
            
-           python C:\Users\Flying_Dutchman\tf_files\retrain.py --output_graph=retrained_graph.pb  --output_labels=retrained_labels.txt --image_dir=C:\Users\Flying_Dutchman\tf_files\fruit_photos
+           python C:\Users\Flying_Dutchman\tf_files\retrain.py --output_graph=output_graph.pb  --output_labels=output_labels.txt --image_dir=C:\Users\Flying_Dutchman\tf_files\fruit_photos
         
+
+It create 2 file name :
+
+output_labels.txt and output_graph.pb
+
+Next we take a test image and cheak it in our classifier :
+
+We use label_image.py program for that.
 
