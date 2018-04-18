@@ -10,7 +10,7 @@ TensorFlow for Poets Codelab: https://goo.gl/QTwZ3v
 
 First You have to create a folder in C drive: 
 
-GO to C:\Users\(your pc name)
+GO to C:\ Users \ (your pc name)
 
 Then create a folder name tf_file.
 
