@@ -8,13 +8,13 @@ Google Research blog on Inception: https://goo.gl/CSrfJ1
 TensorFlow for Poets Codelab: https://goo.gl/QTwZ3v
 
 
-First You have to create a folder in C drive: 
+Create a folder name tf_file in C drive:
 
-GO to C:\ Users \ (your pc name)
+my tf_file location : C:\Users\Flying_.....\tf_files
 
-Then create a folder name tf_file.
+In you want to create a classifier that can classify 6 type flower or someting, Put 6 differnt item image in 6 different folder and give name by item name.
 
-In you want to create a classifier that can classify 6 type flower or someting, Put 6 item image in 6 different folder name by item name.
+C:\Users\Flying_Dutchman\tf_files\fruit_photos
 
 In my fruit_photos folder contain :
 
@@ -27,7 +27,6 @@ Tomato : 138 pic
 Grapes : 78 pic
 
 Goava  : 98 pic
-
 
 
 For retrain the model use retrain.py from my repository.
@@ -47,3 +46,14 @@ Next we take a test image and cheak it in our classifier :
 
 We use label_image.py program for that.
 
+Edit the output_labels.txt and output_graph.pb file path in label_image.py file.
+
+In Command line :
+    
+      python C:\Users\(PC name)\tf_files\label_image.py C:\Users\(PC name)\tf_files\test\testPic.jpg
+      
+ First python
+ Second label_image.py with it's location.
+ Then a jpg pic with it's location.
+ 
+ 
