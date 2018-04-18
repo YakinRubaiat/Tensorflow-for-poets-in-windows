@@ -18,11 +18,15 @@ In you want to create a classifier that can classify 6 type flower or someting, 
 
 In my fruit_photos folder contain :
 
-Apple : 211 pic.
+Apple : 211 pic
+
 Orange : 200 pic
+
 Tomato : 138 pic
-Grapes : 78 pic.
-Goava  : 98 pic.
+
+Grapes : 78 pic
+
+Goava  : 98 pic
 
 
 
