@@ -8,6 +8,14 @@ Google Research blog on Inception: https://goo.gl/CSrfJ1
 TensorFlow for Poets Codelab: https://goo.gl/QTwZ3v
 
 
+Previous requirment : 
+
+python 3.6 or up 
+tensorflow with conda environment or just pip install.
+
+Installing TensorFlow on Windows  : https://www.tensorflow.org/install/install_windows
+
+
 Create a folder name tf_file in C drive:
 
 my tf_file location : C:\Users\Flying_.....\tf_files
