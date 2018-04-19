@@ -1,6 +1,8 @@
 # Tensorflow-for-poets-in-windows
 Tensorflow for poets is a image classifier model, you can use it for build your own image classifier.  
 
+Focus : Mainly retain and label_image command. In many video tutorial(linux,window) they clearly talk about how to do all the process but it's complicated to find this two command for windows. 
+
 Introductroy video : https://goo.gl/dKZAcR 
 
 TensorFlow for Poets Codelab: https://goo.gl/QTwZ3v
