@@ -47,6 +47,17 @@ Take it to the tf_file folder.
 In cammand line use this : 
            
            python C:\Users\Flying_Dutchman\tf_files\retrain.py --output_graph=output_graph.pb  --output_labels=output_labels.txt --image_dir=C:\Users\Flying_Dutchman\tf_files\fruit_photos
+           
+
+1. python
+
+2. retrain.py location.
+
+3. Where to create output_graph.pb
+
+4. Where to create output_labels.txt
+
+5. image_directory loaction.
         
 
 Rewrite this command replace with your PC name. My pc name is "Flying_Dutchman"
@@ -69,7 +80,9 @@ In Command line :
       python C:\Users\(PC name)\tf_files\label_image.py C:\Users\(PC name)\tf_files\test\testPic.jpg
       
  First python
+ 
  Second label_image.py with it's location.
+ 
  Then a jpg pic with it's location.
  
  
