@@ -9,8 +9,12 @@ Google Research blog on Inception: https://goo.gl/CSrfJ1
 
 Previous requirment : 
 
-python 3.6 or up 
-Tensorflow with conda environment or just pip install.
+1. python 3.6 or up 
+
+2. Tensorflow with conda environment or just pip install.
+
+3. numpy
+
 
 Installing TensorFlow on Windows  : https://www.tensorflow.org/install/install_windows
 
@@ -50,6 +54,7 @@ Rewrite this command replace with your PC name. My pc name is "Flying_Dutchman"
 It create 2 file:
 
 1. output_labels.txt
+
 2. output_graph.pb
 
 
