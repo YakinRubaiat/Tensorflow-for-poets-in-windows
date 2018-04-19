@@ -3,15 +3,14 @@ Tensorflow for poets is a image classifier, you can use it for build your own cl
 
 Introductroy video : https://goo.gl/dKZAcR 
 
-Google Research blog on Inception: https://goo.gl/CSrfJ1
-
 TensorFlow for Poets Codelab: https://goo.gl/QTwZ3v
 
+Google Research blog on Inception: https://goo.gl/CSrfJ1
 
 Previous requirment : 
 
 python 3.6 or up 
-tensorflow with conda environment or just pip install.
+Tensorflow with conda environment or just pip install.
 
 Installing TensorFlow on Windows  : https://www.tensorflow.org/install/install_windows
 
@@ -20,9 +19,9 @@ Create a folder name tf_file in C drive:
 
 my tf_file location : C:\Users\Flying_.....\tf_files
 
-In you want to create a classifier that can classify 6 type flower or someting, Put 6 differnt item image in 6 different folder and give name by item name.
+In you want to create a classifier that can classify 6 type flower or someting, Put 6 differnt item image in 6 different folder given by flower name.
 
-C:\Users\Flying_Dutchman\tf_files\fruit_photos
+Fruit Photo Folder Location: C:\Users\Flying_Dutchman\tf_files\fruit_photos
 
 In my fruit_photos folder contain :
 
@@ -46,9 +45,13 @@ In cammand line use this :
            python C:\Users\Flying_Dutchman\tf_files\retrain.py --output_graph=output_graph.pb  --output_labels=output_labels.txt --image_dir=C:\Users\Flying_Dutchman\tf_files\fruit_photos
         
 
-It create 2 file name :
+Rewrite this command replace with your PC name. My pc name is "Flying_Dutchman"
 
-output_labels.txt and output_graph.pb
+It create 2 file:
+
+1. output_labels.txt
+2. output_graph.pb
+
 
 Next we take a test image and cheak it in our classifier :
 
