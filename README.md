@@ -1,5 +1,5 @@
 # Tensorflow-for-poets-in-windows
-Tensorflow for poets is a image classifier, you can use it for build your own classifier.  
+Tensorflow for poets is a image classifier model, you can use it for build your own image classifier.  
 
 Introductroy video : https://goo.gl/dKZAcR 
 
